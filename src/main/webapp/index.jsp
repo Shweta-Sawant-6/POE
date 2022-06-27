@@ -2,13 +2,15 @@
 <body>
 <%
   int a = 0, b = 1, count=10 , c;
-  out.print(a);
-  out.print(b);
+  out.print("Fibonacci Series...")
+  out.println(a);
+  out.println(b);
   while(count>0){
     c = a+b;
-    out.print(c);
+    out.println(c);
     a = b;
     b = c;
+    count -= 1;
   }
 %>
 </body>
