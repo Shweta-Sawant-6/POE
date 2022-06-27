@@ -2,7 +2,7 @@
 <body>
 <%
   int a = 0, b = 1, count=10 , c;
-  out.print("Fibonacci Series...")
+  out.print("Fibonacci Series...");
   out.println(a);
   out.println(b);
   while(count>0){
