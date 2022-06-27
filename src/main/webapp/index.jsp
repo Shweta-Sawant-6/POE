@@ -1,5 +1,14 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<%
+  int a = 0, b = 1, count=10 , c;
+  out.print(a,b);
+  while(count>0){
+    c = a+b;
+    out.print(c);
+    a = b;
+    b = c;
+  }
+%>
 </body>
 </html>
